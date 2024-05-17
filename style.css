@@ -11,7 +11,6 @@ body {
   font-family: open sans;
 }
 
-
 /* HEADER DESIGN */
 
 header {
@@ -30,23 +29,22 @@ header {
   display: flex;
   list-style-type: none;
   gap: 50px;
-  
 }
 
 .nav-btn a {
   text-decoration: none;
   font-family: Raleway;
-  color:   hsl(238, 22%, 44%);
+  color: hsl(238, 22%, 44%);
   font-size: 16px;
   font-weight: 400;
 }
 
 .nav-btn a:hover {
   background-color: hsl(239, 47%, 42%);
- font-size: 15px;
- padding: 10px 15px;
- border-radius: 15px;
- color:   white;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: white;
 }
 
 .nav-img:hover {
@@ -112,11 +110,10 @@ H1 {
 /* Stay page design */
 .stay-page {
   background-image: url(./fylo-landing-page-with-two-column-layout-master/images/bg-curve-desktop.svg);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 10px 0px 30px 0px;
-  
 }
 
 .main-stay-page {
@@ -125,17 +122,16 @@ H1 {
   justify-content: space-between;
   margin-left: 80px;
   margin-right: 80px;
-  margin-top: 80px; 
-  
+  margin-top: 80px;
 }
 
 .stay-page1 {
   width: 100%;
-  }
+}
 
 .stay-page1 h2 {
   font-size: 35px;
-  width: 90%;  
+  width: 90%;
   color: #070439;
 }
 /* STAY PARAGRAPH */
@@ -169,18 +165,18 @@ hr:hover {
 
 /* quotes box */
 .quotes-box {
-  width: 50%;  
-  padding: 25px 4px 22px  40px; 
+  width: 50%;
+  padding: 25px 4px 22px 40px;
   font-size: 13px;
-  box-shadow: 2px 2px 5px 3px rgba(0 , 0, 0, 0.1);  
+  box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 .quotes-box-parag {
- line-height: 1.5;
- 
- margin-top: 5px;
+  line-height: 1.5;
+
+  margin-top: 5px;
 }
-.quotes-last-box{
+.quotes-last-box {
   display: flex;
   gap: 10px;
   margin-top: 15px;
@@ -188,114 +184,96 @@ hr:hover {
 /* font-size: 35px; */
 
 /*  <!-- GET EARLY ACCESS --> */
-.early-access{
- 
-  background-color:#575988 ; 
-  
+.early-access {
+  background-color: #575988;
 }
 
-.main-early-access-box{
+.main-early-access-box {
   display: flex;
   align-items: center;
-  justify-content:center; 
+  justify-content: center;
   margin-left: 80px;
   margin-right: 80px;
   color: white;
-  padding-top:  70px;
+  padding-top: 70px;
   padding-bottom: 70px;
 }
 
 .Get-early-box1 {
   width: 100%;
-  }
+}
 
-
-.Get-early-box1 p{
+.Get-early-box1 p {
   font-size: 14px;
   margin-top: 15px;
 }
 
-.Get-early-box2{
+.Get-early-box2 {
   width: 100%;
-  }
-
-
-.Get-early-box2  input{
-display: block;
-width:400px;
-padding: 11px;
-border-radius: 3px;
-border: none;
 }
-.Get-early-box2  button{
-  padding: 11px 26px ;
-border-radius: 3px;
-border: none;
-margin-top: 15px;
-background-color:hsl(224, 93%, 58%) ;
-color: white;
+
+.Get-early-box2 input {
+  display: block;
+  width: 400px;
+  padding: 11px;
+  border-radius: 3px;
+  border: none;
+}
+.Get-early-box2 button {
+  padding: 11px 26px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 15px;
+  background-color: hsl(224, 93%, 58%);
+  color: white;
 }
 
 /* FOOTER DESIGN */
-footer{
-  background-color:hsl(243, 87%, 12%) ;
+footer {
+  background-color: hsl(243, 87%, 12%);
   color: white;
-  padding: 94px;  
+  padding: 94px;
 }
-.foot-nav{
+.foot-nav {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
   width: 90%;
-  
 }
 
-.fot-ty{
+.fot-ty {
   list-style-type: none;
-
 }
 
-.fot-ty li{
+.fot-ty li {
   padding-top: 11px;
-  
 }
 
-.fot-ty li img{
-margin-right: 12px;
+.fot-ty li img {
+  margin-right: 12px;
 }
 
-.foot-nav a{
+.foot-nav a {
   color: white;
   text-decoration: none;
- 
 }
 
-#social{
+#social {
   display: flex;
 }
 
-#social li{
+#social li {
   padding: 10px 10px 0;
   list-style-type: none;
   margin-top: 10px;
 }
 
-#social i{
+#social i {
   border-radius: 50%;
   border: 1px solid #fff;
-  padding:10px;
+  padding: 10px;
 }
 
-#social i:hover{
+#social i:hover {
   border: 1px solid rgb(116, 172, 246);
 }
-
-
-
-
-
-
-
-
-
-
