@@ -232,8 +232,16 @@ hr:hover {
 footer {
   background-color: hsl(243, 87%, 12%);
   color: white;
-  padding: 94px;
+  
 }
+
+.footer-box{
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 70px;
+
+}
+
 .foot-nav {
   display: flex;
   justify-content: space-between;
@@ -277,3 +285,17 @@ footer {
 #social i:hover {
   border: 1px solid rgb(116, 172, 246);
 }
+
+.attribution{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 5px;
+}
+.attribution a{
+  text-decoration: none;
+  color: #993341;
+}
+
+
