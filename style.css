@@ -8,7 +8,7 @@
 
 body {
   width: 1440px;
-  font-family: open sans;
+  font-family: "open sans", sans-serif;
 }
 
 /* HEADER DESIGN */
@@ -28,7 +28,7 @@ header {
 .nav-btn {
   display: flex;
   list-style-type: none;
-  gap: 50px;
+  gap: 30px;
 }
 
 .nav-btn a {
@@ -78,33 +78,38 @@ header {
   line-height: 1.5;
   padding: 20px 0 20px 0;
   color: #070439;
+  font-size: 16px;
+  width: 85%;
 }
 
 H1 {
   font-family: Raleway;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 800;
   color: #070439;
 }
 
 .hero1 input {
   background-color: #fff;
-  border: 1px solid;
-  padding: 8px 16px;
-  text-decoration: none;
+  border: 1px solid lightgray;
+  padding: 10px 10px 10px 15px;
+  /* text-decoration: none; */
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 3px;
+  width: 60%;
 }
 .hero1 button {
-  background-color: blue;
+  background-color: hsl(224, 93%, 58%);
   border: 1px solid;
   color: white;
-  padding: 8px 16px;
+  padding: 10px;
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 3px;
+  width: 30%;
+  border: none;
 }
 
 /* Stay page design */
@@ -166,14 +171,13 @@ hr:hover {
 /* quotes box */
 .quotes-box {
   width: 50%;
-  padding: 25px 4px 22px 40px;
+  padding: 25px 40px 22px 40px;
   font-size: 13px;
   box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 .quotes-box-parag {
   line-height: 1.5;
-
   margin-top: 5px;
 }
 .quotes-last-box {
@@ -181,7 +185,10 @@ hr:hover {
   gap: 10px;
   margin-top: 15px;
 }
-/* font-size: 35px; */
+.stay-page-img img {
+  width: 90%;
+  margin: 80px 0px 80px;
+}
 
 /*  <!-- GET EARLY ACCESS --> */
 .early-access {
@@ -202,10 +209,14 @@ hr:hover {
 .Get-early-box1 {
   width: 100%;
 }
+.Get-early-box1 h2 {
+  font-size: 27px;
+}
 
 .Get-early-box1 p {
   font-size: 14px;
   margin-top: 15px;
+  width: 70%;
 }
 
 .Get-early-box2 {
@@ -213,7 +224,6 @@ hr:hover {
 }
 
 .Get-early-box2 input {
-  display: block;
   width: 400px;
   padding: 11px;
   border-radius: 3px;
@@ -232,14 +242,12 @@ hr:hover {
 footer {
   background-color: hsl(243, 87%, 12%);
   color: white;
-  
 }
 
-.footer-box{
+.footer-box {
   margin-left: 80px;
   margin-right: 80px;
   padding-top: 70px;
-
 }
 
 .foot-nav {
@@ -266,36 +274,252 @@ footer {
   text-decoration: none;
 }
 
-#social {
+.social {
   display: flex;
 }
 
-#social li {
+.social li {
   padding: 10px 10px 0;
   list-style-type: none;
   margin-top: 10px;
 }
 
-#social i {
+.social i {
   border-radius: 50%;
   border: 1px solid #fff;
   padding: 10px;
 }
 
-#social i:hover {
+.social i:hover {
   border: 1px solid rgb(116, 172, 246);
 }
 
-.attribution{
+.attribution {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
   gap: 5px;
 }
-.attribution a{
+.attribution a {
   text-decoration: none;
   color: #993341;
 }
 
+/* styling for the media query */
 
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    font-family: open sans;
+  }
+
+  /* HEADER DESIGN */
+
+  header {
+    margin: auto;
+    width: 100%;
+  }
+  .first-nav-112 img {
+    width: 150px;
+  }
+  .first-nav-112 {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .nav-btn a {
+    color: hsl(238, 22%, 44%);
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .nav-btn a:hover {
+    background-color: hsl(239, 47%, 42%);
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: white;
+  }
+
+  .nav-img:hover {
+    background-color: hsl(239, 47%, 42%);
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 15px;
+  }
+
+  /* Hero Design */
+  .hero-page {
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 80px;
+  }
+  .hero-img img {
+    width: 350px;
+  }
+  .hero1 {
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+  }
+  H1 {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    color: #070439;
+    width: 80%;
+    margin: auto;
+  }
+  .hero1 p {
+    font-weight: 400;
+    color: #070439;
+    width: 80%;
+    margin: auto;
+    font-size: 15px;
+  }
+
+  .hero1 form {
+    width: 100%;
+  }
+
+  .hero1 input {
+    width: 70%;
+  }
+
+  .hero1 button {
+    width: 70%;
+  }
+
+  /* Stay page design */
+  .stay-page {
+    margin-top: 100px;
+    padding: 0px 0px 75px 0px;
+    background-image: url(./fylo-landing-page-with-two-column-layout-master/images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+  }
+
+  .main-stay-page {
+    flex-direction: column-reverse;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .stay-page-img img {
+    width: 100%;
+    padding: 40px;
+    margin: 0px;
+  }
+
+  .stay-page1 {
+    width: 100%;
+  }
+  .stay-page1 h2 {
+    font-size: 18px;
+    text-align: center;
+    color: #070439;
+    margin-top: 50px;
+  }
+  /* STAY PARAGRAPH */
+  .staypar1 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #070439;
+  }
+  .staypar2 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #070439;
+    margin-bottom: 30px;
+  }
+
+  .greenpar {
+    justify-content: center;
+    color: hsl(170, 45%, 43%);
+    gap: 8px;
+    width: 100%;
+  }
+  hr {
+    border-top: 1px solid hsl(170, 45%, 43%);
+    margin-bottom: 30px;
+    justify-content: center;
+    margin-left: 185px;
+    width: 170px;
+    margin-bottom: 40px;
+  }
+  .greenpar:hover,
+  hr:hover {
+    color: #215e54;
+  }
+
+  /* quotes box */
+  .quotes-box {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 13px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  /*  <!-- GET EARLY ACCESS --> */
+  .early-access {
+    background-color: #575988;
+  }
+
+  .main-early-access-box {
+    flex-direction: column;
+  }
+
+  .Get-early-box1,
+  .Get-early-box1 p {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+  .Get-early-box1 h2 {
+    font-size: 18px;
+  }
+
+  .Get-early-box2 button,
+  .Get-early-box2 input {
+    width: 100%;
+  }
+
+  .Get-early-box2 {
+    width: 70%;
+  }
+
+  /* FOOTER DESIGN */
+
+  .foot-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 90%;
+    flex-direction: column;
+  }
+  #social {
+    align-self: center;
+    margin-top: 40px;
+    display: flex;
+  }
+  .fot-ty {
+    padding-top: 30px;
+  }
+  .fot-ty li {
+    line-height: 1.7;
+  }
+
+  #social i {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  #social i:hover {
+    border: 1px solid rgb(116, 172, 246);
+  }
+}
