@@ -321,7 +321,7 @@ footer {
     width: 100%;
   }
   .first-nav-112 img {
-    width: 150px;
+    width: 80px;
   }
   .first-nav-112 {
     width: 100%;
@@ -336,7 +336,6 @@ footer {
 
   .nav-btn a:hover {
     background-color: hsl(239, 47%, 42%);
-    font-size: 15px;
     padding: 10px 15px;
     border-radius: 15px;
     color: white;
@@ -344,7 +343,6 @@ footer {
 
   .nav-img:hover {
     background-color: hsl(239, 47%, 42%);
-    font-size: 15px;
     padding: 10px 15px;
     border-radius: 15px;
   }
@@ -367,7 +365,7 @@ footer {
   }
   H1 {
     font-family: Raleway;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     color: #070439;
     width: 80%;
@@ -378,7 +376,7 @@ footer {
     color: #070439;
     width: 80%;
     margin: auto;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .hero1 form {
@@ -423,12 +421,12 @@ footer {
   }
   /* STAY PARAGRAPH */
   .staypar1 {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 1.5;
     color: #070439;
   }
   .staypar2 {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 1.5;
     color: #070439;
     margin-bottom: 30px;
@@ -442,11 +440,8 @@ footer {
   }
   hr {
     border-top: 1px solid hsl(170, 45%, 43%);
-    margin-bottom: 30px;
-    justify-content: center;
-    margin-left: 185px;
-    width: 170px;
-    margin-bottom: 40px;
+    margin-left: 70px;
+    width: 165px;
   }
   .greenpar:hover,
   hr:hover {
@@ -458,7 +453,7 @@ footer {
     width: 80%;
     margin: auto;
     padding: 30px;
-    font-size: 13px;
+    font-size: 11px;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
   }
 
@@ -507,6 +502,7 @@ footer {
   }
   .fot-ty {
     padding-top: 30px;
+    font-size: 13px;
   }
   .fot-ty li {
     line-height: 1.7;
