@@ -152,21 +152,13 @@ H1 {
   padding: 10px 0 10px 0;
   color: #070439;
 }
-.greenpar {
-  display: flex;
-  width: 50%;
-  color: hsl(170, 45%, 43%);
-  gap: 8px;
+.stay-page1 a{
+  text-decoration: underline;
+color: hsl(170, 45%, 43%);
+
+
 }
-hr {
-  width: 24%;
-  border-top: 1px solid hsl(170, 45%, 43%);
-  margin-bottom: 30px;
-}
-.greenpar:hover,
-hr:hover {
-  color: #215e54;
-}
+
 
 /* quotes box */
 .quotes-box {
@@ -174,6 +166,7 @@ hr:hover {
   padding: 25px 40px 22px 40px;
   font-size: 13px;
   box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
 }
 
 .quotes-box-parag {
@@ -424,20 +417,23 @@ footer {
     font-size: 13px;
     line-height: 1.5;
     color: #070439;
+   
   }
   .staypar2 {
     font-size: 13px;
     line-height: 1.5;
     color: #070439;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    
   }
 
-  .greenpar {
-    justify-content: center;
+  .stay-page1 a{
+    text-decoration: underline;
     color: hsl(170, 45%, 43%);
-    gap: 8px;
-    width: 100%;
-  }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
  
 
   /* quotes box */
@@ -447,6 +443,7 @@ footer {
     padding: 30px;
     font-size: 11px;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
   }
 
   /*  <!-- GET EARLY ACCESS --> */
